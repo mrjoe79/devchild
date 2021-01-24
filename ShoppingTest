@@ -1,0 +1,21 @@
+public class ShoppingTest {
+    public static void main(String[] args) {
+        Shopping shopping = new Shopping();
+        shopping.order_number = 201803120001L;
+        shopping.order_id = "abc123";
+        shopping.order_year = 2018;
+        shopping.order_month = 3;
+        shopping.order_date = 18;
+        shopping.order_name = "홍길순";
+        shopping.order_mul = "PD0345-12";
+        shopping.order_address = "서울시 영등포구";
+
+        System.out.println("주문 번호 :" + shopping.order_number);
+        System.out.println("주문자 아이디 :" + shopping.order_id);
+        System.out.println("주문 날짜 :" + shopping.order_year + "년" + shopping.order_month + "월" + shopping.order_date + "일");
+        System.out.println("주문자 이름 :" + shopping.order_name);
+        System.out.println("주문자 상품 번호 :" + shopping.order_mul);
+        System.out.println("배송 주소 :" + shopping.order_address);
+
+    }
+}
