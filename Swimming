@@ -1,0 +1,23 @@
+import java.io.PrintStream;
+import java.util.Scanner;
+public class Swimming {
+
+    Scanner sc = new Scanner(System.in);
+    PrintStream p = System.out;
+    static int temp = 0;
+    public static void main(String[] args)
+    {
+
+        Swimming ma = new Swimming();
+        ma.input();
+
+        if(temp == 1 || temp ==3 || temp == 5) System.out.println("enjoy");
+        else System.out.println("oops");
+
+    }
+
+    void input()
+    {
+        temp = sc.nextInt();
+    }
+}
