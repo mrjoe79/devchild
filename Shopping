@@ -1,0 +1,14 @@
+public class Shopping {
+        long order_number;
+        String order_id;
+        int order_year;
+        int order_month;
+        int order_date;
+        String order_name;
+        String order_mul;
+        String order_address;
+
+
+    }
+
+
